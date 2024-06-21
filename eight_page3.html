@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/eight_footer.css">
+    <link rel="stylesheet" href="./css/eight_header.css">
+    <link rel="stylesheet" href="./css/eight_page3.css">
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script defer src="./js/eight_item.js"></script>
+    <script defer src="./js/eight_footer.js"></script>
+    <script defer src="./js/eight_header.js"></script>
+    <script defer src="./js/eight_page3.js"></script>
+
+</head>
+<body>
+    <div id="wrap content_area">
+        <div class="search_page">
+            <div class="x_ssf">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.17574 3.17574C3.41005 2.94142 3.78995 2.94142 4.02426 3.17574L12 11.1515L19.9757 3.17574C20.2101 2.94142 20.5899 2.94142 20.8243 3.17574C21.0586 3.41005 21.0586 3.78995 20.8243 4.02426L12.8485 12L20.8243 19.9757C21.0586 20.2101 21.0586 20.5899 20.8243 20.8243C20.5899 21.0586 20.2101 21.0586 19.9757 20.8243L12 12.8485L4.02426 20.8243C3.78995 21.0586 3.41005 21.0586 3.17574 20.8243C2.94142 20.5899 2.94142 20.2101 3.17574 19.9757L11.1515 12L3.17574 4.02426C2.94142 3.78995 2.94142 3.41005 3.17574 3.17574Z" fill="#969696"/>
+                </svg>
+            </div>
+            <div class="search_txt">
+                <input type="text" placeholder="검색어를 입력하세요" class="put_name">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" class="ssf_search_logo">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22.5196 13.2967C22.5196 18.4265 18.361 22.5851 13.2312 22.5851C8.10133 22.5851 3.94277 18.4265 3.94277 13.2967C3.94277 8.16688 8.10133 4.00833 13.2312 4.00833C18.361 4.00833 22.5196 8.16688 22.5196 13.2967ZM20.4419 21.4554C18.5214 23.1541 15.9967 24.1851 13.2312 24.1851C7.21767 24.1851 2.34277 19.3102 2.34277 13.2967C2.34277 7.28322 7.21767 2.40833 13.2312 2.40833C19.2447 2.40833 24.1196 7.28322 24.1196 13.2967C24.1196 16.0628 23.0881 18.588 21.3888 20.5087C21.5339 20.5389 21.6723 20.6097 21.7859 20.7213L29.4178 28.2211C29.7329 28.5308 29.7374 29.0373 29.4277 29.3525C29.118 29.6676 28.6115 29.672 28.2963 29.3623L20.6644 21.8625C20.5473 21.7473 20.473 21.605 20.4419 21.4554Z" fill="#111111"/>
+                </svg>
+                
+            </div>
+            <div class="add_search_txt">
+                <h3>인기 검색어</h3>
+                <div>1. 에잇세컨즈</div>
+                <div>2. 플리츠플리즈</div>
+                <div>3. 빈폴레이디스</div>
+                <div>4. 메종키츠네</div>
+                <div>5. 원피스</div>
+                <div>6. 르메르</div>
+                <div>7. 꼼데가르송</div>
+                <div>8. 바오바오</div>
+                <div>9. 버켄스탁</div>
+                <div>10. 드래곤 디퓨전</div>
+            </div>
+        </div>
+        <div class="black_pan"></div>
+        <div class="header">
+            <div class="ssf_shop_box">
+                <div class="ssf_logo">
+                    <svg width="89" height="14" viewBox="0 0 89 14" fill="none">
+                        <path d="M5.52412 13.9968C4.39786 14.0313 3.28091 13.7902 2.27762 13.2959C1.41651 12.8492 0.645187 12.2578 0 11.5497L2.40283 9.72012C2.7248 10.277 3.18461 10.7486 3.74137 11.093C4.27066 11.4103 4.88287 11.5757 5.50623 11.5698C5.82029 11.576 6.13277 11.5254 6.42741 11.4204C6.67765 11.3294 6.9074 11.1929 7.10414 11.0183C7.28632 10.8595 7.42899 10.6632 7.5215 10.4439C7.61109 10.2243 7.65759 9.99055 7.65864 9.75458C7.66596 9.49025 7.57622 9.23191 7.40524 9.02506C7.2223 8.81415 6.99853 8.63954 6.7464 8.51094C6.44626 8.356 6.1319 8.22812 5.80733 8.12895C5.44959 8.01693 5.08588 7.90492 4.71026 7.7929C4.45401 7.70495 4.1969 7.61452 3.94032 7.52427C3.71936 7.44655 3.49858 7.36889 3.27929 7.29315C2.81373 7.12707 2.37813 6.89155 1.98844 6.59522C1.60472 6.29868 1.2873 5.93034 1.05534 5.51242C0.799948 5.00993 0.677075 4.45454 0.697595 3.8954C0.692872 3.36541 0.812086 2.8412 1.04639 2.36167C1.28086 1.88642 1.61478 1.46301 2.0272 1.11803C2.46512 0.753031 2.97092 0.47137 3.51779 0.287975C4.12271 0.0875183 4.7593 -0.00967851 5.39891 0.000759707C5.91683 -0.00478381 6.43378 0.0453094 6.94018 0.150112C7.37121 0.24282 7.79017 0.38154 8.18929 0.563701C8.56297 0.728607 8.91601 0.933844 9.24164 1.17547C9.55723 1.4208 9.85598 1.6856 10.136 1.96818L7.9657 3.55648C7.69414 3.14248 7.31495 2.80408 6.86574 2.57484C6.41653 2.34561 5.91292 2.2335 5.40487 2.24965C4.87378 2.21456 4.34861 2.37466 3.93515 2.69771C3.77326 2.83541 3.64436 3.00536 3.55736 3.19579C3.47037 3.38622 3.42737 3.59259 3.43133 3.80062C3.42311 4.04947 3.50536 4.29328 3.66386 4.48993C3.83838 4.69303 4.05197 4.86174 4.29289 4.98681C4.58736 5.14066 4.89568 5.26852 5.21407 5.36881L6.32009 5.73357C6.79708 5.88292 7.27904 6.0543 7.76596 6.24769C8.23894 6.43667 8.68239 6.68799 9.08364 6.99445C9.47987 7.30512 9.80646 7.69012 10.0436 8.12607C10.3002 8.63253 10.426 9.19122 10.4103 9.75458C10.4083 10.2992 10.2943 10.838 10.0748 11.3399C9.85524 11.8418 9.53458 12.2967 9.13134 12.6784C8.68911 13.0877 8.16874 13.4106 7.59901 13.6291C6.93945 13.8827 6.23419 14.0077 5.52412 13.9968Z" fill="#C9C9C9"/>
+                        <path d="M17.1775 13.9968C16.0513 14.0313 14.9343 13.7902 13.931 13.2959C13.0607 12.8331 12.2809 12.2276 11.6266 11.5066L14.0711 9.72012C14.3922 10.2776 14.8522 10.7494 15.4097 11.093C15.9376 11.411 16.549 11.5764 17.1716 11.5698C17.4856 11.576 17.7981 11.5254 18.0927 11.4204C18.3438 11.3293 18.5745 11.1928 18.7725 11.0183C18.9537 10.8588 19.0962 10.6626 19.1898 10.4439C19.2785 10.2241 19.3239 9.99038 19.324 9.75459C19.3321 9.49061 19.2435 9.2323 19.0736 9.02506C18.8899 8.81482 18.6663 8.64032 18.4147 8.51094C18.1133 8.35652 17.798 8.22867 17.4727 8.12895C17.1179 8.01694 16.7512 7.90492 16.3786 7.79291C15.8986 7.64356 15.4216 7.47984 14.9416 7.30751C14.4712 7.13767 14.0315 6.89727 13.6389 6.59522C13.2549 6.29967 12.9383 5.93107 12.7087 5.51242C12.4534 5.00993 12.3305 4.45454 12.351 3.8954C12.3463 3.36541 12.4655 2.8412 12.6998 2.36167C12.9332 1.88655 13.2661 1.46312 13.6776 1.11803C14.1162 0.753935 14.6218 0.472377 15.1682 0.287977C15.7721 0.0875074 16.4077 -0.00969456 17.0464 0.000762251C17.5643 -0.00478127 18.0812 0.045312 18.5876 0.150114C19.0205 0.243053 19.4414 0.381757 19.8427 0.563704C20.2155 0.732663 20.5666 0.942781 20.8891 1.18983C21.204 1.43596 21.5027 1.7007 21.7834 1.98255L19.6102 3.57085C19.3393 3.15687 18.9607 2.81842 18.5119 2.58916C18.0632 2.35989 17.56 2.2478 17.0523 2.26402C16.52 2.22643 15.993 2.38677 15.5796 2.71207C15.4177 2.84977 15.2888 3.01972 15.2018 3.21015C15.1148 3.40058 15.0718 3.60695 15.0758 3.81498C15.0676 4.06383 15.1498 4.30764 15.3083 4.50429C15.4829 4.70739 15.6964 4.87611 15.9374 5.00118C16.2318 5.15503 16.5401 5.28288 16.8585 5.38317L17.9735 5.73358C18.4505 5.88293 18.9315 6.0543 19.4164 6.24769C19.8897 6.436 20.3333 6.68737 20.7341 6.99445C21.1311 7.30432 21.4579 7.68949 21.694 8.12608C21.9506 8.63253 22.0764 9.19122 22.0607 9.75459C22.0606 10.2934 21.948 10.8267 21.7298 11.3228C21.5109 11.8318 21.1874 12.2929 20.7788 12.6784C20.3377 13.0877 19.8183 13.4106 19.2494 13.6291C18.5908 13.8824 17.8866 14.0073 17.1775 13.9968Z" fill="#C9C9C9"/>
+                        <path d="M33.2431 2.60311H26.7739V5.77971H33.2431V8.20668H26.7739V13.8102H24.1386V0.176144H33.2431V2.60311Z" fill="#C9C9C9"/>
+                        <path d="M39.0534 11.6303L39.9477 10.9553C40.3383 11.5507 40.8827 12.0382 41.5276 12.37C42.1724 12.7017 42.8957 12.8665 43.6265 12.8481C45.4957 12.8481 46.9297 11.7394 46.9297 10.0477C46.9297 8.2502 45.2686 7.7161 43.4792 7.14075L43.4178 7.121C41.5307 6.54657 39.5423 5.8113 39.5423 3.53943C39.5423 1.59499 41.331 0.176144 43.6355 0.176144C45.5315 0.176144 46.8044 0.885565 47.7197 1.99996L46.87 2.63183C46.1337 1.62945 45.1171 1.10385 43.6623 1.10385C41.9839 1.10385 40.6811 2.10336 40.6811 3.53943C40.6811 5.18619 42.1974 5.67895 43.8799 6.22573C43.9581 6.25115 44.0366 6.27667 44.1154 6.30244C46.0413 6.94006 48.0416 7.66671 48.0416 10.0362C48.0416 12.1099 46.2291 13.7988 43.6444 13.7988C42.7541 13.8227 41.871 13.6378 41.0713 13.2601C40.2715 12.8823 39.579 12.323 39.0534 11.6303Z" fill="#C9C9C9"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M64.0943 3.20519C63.3169 4.32692 62.9022 5.64561 62.9028 6.99442C62.9036 8.8018 63.6492 10.5349 64.9757 11.8129C66.3022 13.091 68.1011 13.8093 69.9771 13.81C71.3771 13.8106 72.7459 13.4111 73.9102 12.6621C75.0745 11.9131 75.9821 10.8482 76.5181 9.6022C77.0541 8.35616 77.1946 6.98496 76.9216 5.66203C76.6486 4.33911 75.9745 3.1239 74.9845 2.17015C73.9946 1.21639 72.7332 0.566938 71.3601 0.303937C69.9869 0.0409354 68.5637 0.176206 67.2704 0.692637C65.977 1.20907 64.8717 2.08346 64.0943 3.20519ZM74.1952 2.92344C75.3158 4.00313 75.9454 5.46751 75.9454 6.99442C75.9454 8.52133 75.3158 9.9857 74.1952 11.0654C73.0745 12.1451 71.5545 12.7516 69.9697 12.7516C68.3848 12.7516 66.8648 12.1451 65.7442 11.0654C64.6235 9.9857 63.9939 8.52133 63.9939 6.99442C63.9939 5.46751 64.6235 4.00313 65.7442 2.92344C66.8648 1.84376 68.3848 1.23719 69.9697 1.23719C71.5545 1.23719 73.0745 1.84376 74.1952 2.92344Z" fill="#C9C9C9"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M79.2575 0.357055H83.9618C86.9996 0.357055 89 2.30437 89 4.86633C89 7.42829 86.9996 9.39284 83.9618 9.39284H80.2771V13.6293H79.2575V0.357055ZM80.2771 1.26178V8.47088H83.9529C86.4541 8.47088 88.0013 6.88258 88.0013 4.87208C88.0013 2.80126 86.466 1.26753 83.9529 1.26753L80.2771 1.26178Z" fill="#C9C9C9"/>
+                        <path d="M59.4774 0.357055H60.5715V13.6293H59.4774V7.49435H51.5147V13.6293H50.4206V0.357055H51.5147V6.49484H59.4774V0.357055Z" fill="#C9C9C9"/>
+                    </svg>
+                </div>
+                <div class="ssf_msg">
+                    <div class="ssf_maker">
+                        <svg width="87" height="16" viewBox="0 0 87 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="87" height="16" fill="url(#pattern0)"/>
+                            <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_260_11940" transform="translate(0.0266071) scale(0.00227047 0.0123457)"/>
+                            </pattern>
+                            <image id="image0_260_11940" width="417" height="81" xlink:href="data:image/png;base64,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"/>
+                            </defs>
+                            </svg>
+                    
+                            <svg width="49" height="16" viewBox="0 0 49 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.83136 3.8335H0V12.1668H3.83136C4.2977 12.1662 4.7541 12.0263 5.14513 11.7639C5.53646 11.5015 5.84585 11.1277 6.03624 10.6877C6.22664 10.2477 6.2899 9.76025 6.2182 9.28397C6.1468 8.80768 5.94346 8.36295 5.63286 8.00334C5.94556 7.64395 6.15042 7.1986 6.22302 6.7213C6.29562 6.24396 6.23296 5.75511 6.04227 5.31388C5.85187 4.87266 5.54158 4.49802 5.14905 4.23526C4.75651 3.97254 4.29891 3.83299 3.83136 3.8335ZM1.61653 5.50399H3.83136C3.94312 5.49387 4.05549 5.50788 4.16153 5.54512C4.20913 5.56174 4.25462 5.58283 4.298 5.60805C4.35193 5.63929 4.40224 5.67689 4.44803 5.7202C4.53057 5.79846 4.59655 5.89361 4.64173 5.99961C4.68692 6.10566 4.71012 6.22023 4.71012 6.33604C4.71012 6.38289 4.7062 6.42951 4.69867 6.47543C4.68783 6.54311 4.66855 6.6093 4.64173 6.67246C4.61492 6.73539 4.58088 6.7945 4.54021 6.84852C4.51219 6.88549 4.48147 6.92008 4.44803 6.95188C4.36518 7.03014 4.26788 7.08975 4.16153 7.127C4.05549 7.1642 3.94312 7.17821 3.83136 7.16809H1.61653V5.50399ZM3.83136 10.5027H1.61653V8.83224H3.83136C3.9621 8.83224 4.08953 8.86496 4.20341 8.92602C4.27631 8.96509 4.34379 9.01576 4.40284 9.07686C4.44381 9.11916 4.47966 9.16551 4.51069 9.21501C4.54262 9.26618 4.56883 9.32074 4.58932 9.37768C4.62215 9.46956 4.63963 9.56758 4.63963 9.66748C4.63963 9.88899 4.55437 10.1014 4.40284 10.2581C4.25131 10.4147 4.04585 10.5027 3.83136 10.5027Z" fill="white"/>
+                                <path d="M14.3198 12.1668V10.5027H10.2848V8.83224H14.3198V7.16809H10.2848V5.50399H14.3198V3.8335H8.66831V12.1668H14.3198Z" fill="white"/>
+                                <path d="M34.1864 3.8335V12.1668H39.8316V10.5027H35.8029V8.83224H39.8316V7.16809H35.8029V5.50399H39.8316V3.8335H34.1864Z" fill="white"/>
+                                <path d="M25.7154 3.8335H27.3256V12.1668H25.7154V3.8335Z" fill="white"/>
+                                <path d="M32.4647 12.1668L29.8242 8.00334L32.4647 3.8335H30.6262L27.9857 8.00334L30.6262 12.1668H32.4647Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M47.7962 4.56741C48.2493 5.03575 48.5047 5.6705 48.5062 6.33285C48.5074 6.86471 48.3442 7.38298 48.0399 7.81203C47.7359 8.24103 47.3069 8.55831 46.8159 8.71744L49 12.1668H47.1491L45.0388 8.83224H43.8666V12.1668H42.2564V3.8335H46.0878C46.7288 3.83517 47.3428 4.09906 47.7962 4.56741ZM46.4179 5.54512C46.3712 5.52874 46.3233 5.51687 46.2748 5.50955C46.2131 5.50021 46.1504 5.4983 46.0878 5.50399H43.8666V7.16809H46.0878C46.1459 7.17335 46.2044 7.17206 46.2619 7.16439C46.3149 7.15731 46.367 7.14482 46.4179 7.127C46.5243 7.08975 46.6216 7.03014 46.7044 6.95188C46.787 6.87366 46.853 6.77847 46.8981 6.67246C46.9433 6.56646 46.9665 6.45189 46.9665 6.33604C46.9665 6.22023 46.9433 6.10566 46.8981 5.99961C46.853 5.89361 46.787 5.79846 46.7044 5.7202C46.6659 5.6837 46.624 5.65128 46.5797 5.62326C46.5532 5.60653 46.5258 5.59135 46.4975 5.57789C46.4716 5.56555 46.4451 5.55461 46.4179 5.54512Z" fill="white"/>
+                                <path d="M20.8842 3.8335L23.9507 12.1668H22.2046L20.0145 6.20532L17.818 12.1668H16.0719L19.1384 3.8335H20.8842Z" fill="white"/>
+                            </svg>
+                    </div>
+                    <div class="ssf_search">    
+                        <div class="header_line1"></div>
+                        <div class="header_line2"></div>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="ssf_click_search">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5519 13.3617C11.3983 14.3657 9.89641 14.9726 8.25415 14.9726C4.61616 14.9726 1.66699 11.994 1.66699 8.31969C1.66699 4.64537 4.61616 1.66675 8.25415 1.66675C11.8921 1.66675 14.8413 4.64537 14.8413 8.31969C14.8413 9.97609 14.242 11.4911 13.2504 12.6556L17.349 16.6417C17.5455 16.8328 17.5514 17.1487 17.3622 17.3472C17.1729 17.5457 16.8602 17.5517 16.6636 17.3605L12.5519 13.3617ZM13.8532 8.31969C13.8532 11.4429 11.3464 13.9747 8.25415 13.9747C5.16186 13.9747 2.65507 11.4429 2.65507 8.31969C2.65507 5.19652 5.16186 2.66469 8.25415 2.66469C11.3464 2.66469 13.8532 5.19652 13.8532 8.31969Z" fill="#C9C9C9"/>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.28785 3.83915C7.54438 2.05362 4.71807 2.05362 2.9746 3.83915C1.23112 5.62469 1.23112 8.51967 2.9746 10.3052L10.0003 17.5L17.0261 10.3057C18.7695 8.52015 18.7695 5.62517 17.0261 3.83963C15.2826 2.05409 12.4563 2.05409 10.7128 3.83963L10.0003 4.5693L9.28785 3.83915ZM16.3106 9.60701C16.3106 9.607 16.3106 9.60703 16.3106 9.60701C17.6747 8.20998 17.6747 5.93527 16.3106 4.53826C14.9595 3.15455 12.7794 3.15455 11.4283 4.53826L10.0001 6.00092L8.57236 4.53778C8.57229 4.5377 8.57244 4.53786 8.57236 4.53778C7.22124 3.15431 5.04111 3.15415 3.69008 4.53778C2.32596 5.93481 2.32596 8.20955 3.69008 9.60659L10.0003 16.0687L16.3106 9.60701Z" fill="#C9C9C9"/>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.97405 4.24638C6.1774 2.76836 7.44669 1.66675 8.94634 1.66675H11.0522C12.5518 1.66675 13.8211 2.76836 14.0245 4.24639L14.2512 5.89451H16.526L17.4966 16.5966C17.5406 17.0819 17.1564 17.5001 16.6666 17.5001H3.3334C2.8436 17.5001 2.45942 17.0819 2.50344 16.5966L3.47412 5.89451H5.7473L5.97405 4.24638ZM6.75662 5.89451H13.2419L13.0337 4.38127C12.8981 3.39592 12.0519 2.66151 11.0522 2.66151H8.94634C7.94657 2.66151 7.10038 3.39592 6.96481 4.38127L6.75662 5.89451ZM3.51578 16.5053L4.38796 6.88927H15.6122L16.4842 16.5053H3.51578Z" fill="#C9C9C9"/>
+                            </svg>
+                    </div>
+                    <div class="ssf_my_page">
+                        <a href="">마이페이지</a>
+                        <a href="">로그인</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header_8_box">
+                <div class="header_left_box">
+                        <img src="./img/logo/BDMA07A01_KOR_20240311173708_PC.webp">
+                        <div class="header_heart_num">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.145 4.60699C9.05286 2.46434 5.66129 2.46434 3.56912 4.60699C1.47696 6.74963 1.47696 10.2236 3.56912 12.3663L12 21L20.4309 12.3668C22.523 10.2242 22.523 6.7502 20.4309 4.60755C18.3387 2.46491 14.9471 2.46491 12.855 4.60755L12 5.48316L11.145 4.60699ZM19.5724 11.5284C19.5724 11.5284 19.5723 11.5284 19.5724 11.5284C21.2092 9.85197 21.2092 7.12233 19.5723 5.44591C17.951 3.78546 15.3349 3.78546 13.7136 5.44591L11.9997 7.2011L10.2864 5.44534C10.2864 5.44525 10.2865 5.44543 10.2864 5.44534C8.66509 3.78517 6.04894 3.78498 4.42771 5.44534C2.79076 7.12178 2.79076 9.85146 4.42771 11.5279L12 19.2824L19.5724 11.5284Z" fill="#B0B0B0"/>
+                            </svg>
+                            <span>9999+</span>
+                        </div>
+                        <div class="header_txt">
+                            <div class="header_box header_box1">
+                                <span><a href="./eight_page2.html?cate_no=1">여성</a></span>
+                                    <ul class="hide_box1">
+                                        <li><a href="./eight_page2.html?cate_no=1">신상품</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=1">라운지/언더웨어</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=1">전체 상품</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=1">패션잡화</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=1">아우터</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=1">쥬얼리/시계</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=1">재킷/베스트</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=1">여성 세일상품</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=1">니트</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=1">UNI8</a></li>
+                                    </ul>
+                            </div>
+                            <div class="header_box header_box2">
+                                <span><a href="./eight_page2.html?cate_no=2">남성</a></span>
+                                <ul class="hide_box2">
+                                    <li><a href="./eight_page2.html?cate_no=2">신상품</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=2">라운지/언더웨어</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=2">전체 상품</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=2">패션잡화</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=2">아우터</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=2">쥬얼리/시계</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=2">재킷/베스트</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=2">여성 세일상품</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=2">니트</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=2">UNI8</a></li>
+                                </ul>
+                            </div>
+                            <div class="header_box header_box3">
+                                <span><a href="./eight_page2.html?cate_no=0">백&슈즈</a></span>
+                                <ul class="hide_box3">
+                                    <li><a href="./eight_page2.html?cate_no=0">신상품</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">라운지/언더웨어</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">전체 상품</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">패션잡화</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">아우터</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">쥬얼리/시계</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">재킷/베스트</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">여성 세일상품</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">니트</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">UNI8</a></li>
+                                </ul>
+                            </div>
+                            <div class="header_box header_box4">
+                                <span><a href="./eight_page2.html?cate_no=0">키즈</a></span>
+                                <ul class="hide_box4">
+                                    <li><a href="./eight_page2.html?cate_no=0">신상품</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">라운지/언더웨어</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">전체 상품</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">패션잡화</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">아우터</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">쥬얼리/시계</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">재킷/베스트</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">여성 세일상품</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">니트</a></li>
+                                    <li><a href="./eight_page2.html?cate_no=0">UNI8</a></li>
+                                </ul>
+                            </div>
+                            <div class="header_box header_box5"> 
+                                <span><a href="./eight_page2.html?cate_no=0">아울렛</a></span>
+                                    <ul class="hide_box5">
+                                        <li><a href="./eight_page2.html?cate_no=0">신상품</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=0">라운지/언더웨어</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=0">전체 상품</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=0">패션잡화</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=0">아우터</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=0">쥬얼리/시계</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=0">재킷/베스트</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=0">여성 세일상품</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=0">니트</a></li>
+                                        <li><a href="./eight_page2.html?cate_no=0">UNI8</a></li>
+                                    </ul>
+                            </div>
+                            <div class="header_box"> 
+                                <span><a href="./eight_page2.html?cate_no=0">신상품</a></span>
+                            </div>
+                            <div class="header_box">
+                                <span><a href="./eight_page2.html?cate_no=0">기획전</a></span>
+                            </div>
+                        </div>
+                </div>
+                <div  class="header_right_box">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" class="main_click_search">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5719 18.7062C15.9568 20.1117 13.8542 20.9615 11.555 20.9615C6.46185 20.9615 2.33301 16.7914 2.33301 11.6474C2.33301 6.50333 6.46185 2.33325 11.555 2.33325C16.6482 2.33325 20.7771 6.50333 20.7771 11.6474C20.7771 13.9663 19.938 16.0874 18.5497 17.7176L24.2878 23.2982C24.5629 23.5658 24.5712 24.008 24.3062 24.2859C24.0413 24.5638 23.6034 24.5722 23.3283 24.3046L17.5719 18.7062ZM19.3938 11.6474C19.3938 16.0198 15.8842 19.5644 11.555 19.5644C7.22583 19.5644 3.71631 16.0198 3.71631 11.6474C3.71631 7.27493 7.22583 3.73037 11.555 3.73037C15.8842 3.73037 19.3938 7.27493 19.3938 11.6474Z" fill="#111111"/>
+                    </svg>
+                    <div class="search_8_box">
+                        <div class="search_8_msg">
+                            <input type="text" placeholder="검색어를 입력하세요" class="search_8_msg_box">
+                        </div>
+                        <div class="search_8_txt">
+                            <h3>최근 검색어</h3>
+                            <p>최근 검색어가 없습니다.</p>
+                            <div class="search_x">닫기</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="side_header">
+                <div class="side_svg">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M8.26724 18.9815C9.42334 19.552 10.6995 19.8364 11.9885 19.8109L12.0002 19.8108C13.6463 19.8108 15.2553 19.3221 16.6233 18.4067C17.9913 17.4912 19.0566 16.1903 19.6844 14.6688C20.3121 13.1473 20.4739 11.4737 20.1493 9.8601C19.8247 8.24652 19.0283 6.76563 17.861 5.60514C16.6937 4.44464 15.2082 3.65679 13.5926 3.34146C11.977 3.02614 10.3042 3.19753 8.78615 3.83391C7.26809 4.4703 5.97317 5.54301 5.06553 6.91608C4.15597 8.29207 3.67824 9.85419 3.68763 11.4966C3.6895 11.8245 3.4252 12.0919 3.09729 12.0937C2.76937 12.0956 2.50203 11.8313 2.50016 11.5034C2.48939 9.61891 3.03952 7.82759 4.07491 6.26125C5.11223 4.69199 6.59215 3.46604 8.32705 2.73875C10.062 2.01146 11.9737 1.81559 13.82 2.17596C15.6664 2.53632 17.3642 3.43672 18.6982 4.76301C20.0323 6.08929 20.9425 7.78177 21.3134 9.6259C21.6844 11.47 21.4995 13.3828 20.7821 15.1217C20.0647 16.8606 18.8471 18.3474 17.2837 19.3936C15.7219 20.4387 13.8852 20.9971 12.0061 20.9983C10.529 21.0266 9.06668 20.7002 7.7418 20.0465C6.78009 19.5719 5.9112 18.935 5.172 18.1666V20.4062C5.172 20.7342 4.90617 21 4.57826 21C4.25034 21 3.98451 20.7342 3.98451 20.4062V15.8542H8.53656C8.86448 15.8542 9.13031 16.12 9.13031 16.4479C9.13031 16.7758 8.86448 17.0417 8.53656 17.0417H5.75205C6.45184 17.8473 7.30637 18.5074 8.26724 18.9815Z" fill="#111111"/>
+                        <path d="M12.5937 7.54175C12.5937 7.21383 12.3279 6.948 12 6.948C11.6721 6.948 11.4062 7.21383 11.4062 7.54175V12.775L14.103 14.9325C14.3591 15.1373 14.7327 15.0958 14.9376 14.8397C15.1424 14.5837 15.1009 14.21 14.8448 14.0052L12.5937 12.2043V7.54175Z" fill="#111111"/>
+                    </svg>
+                </div>
+                <div class="side_svg">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 19V20.2V20.6006V22L14.8 21.28L11 19H7C4.79086 19 3 17.2091 3 15V6C3 3.79086 4.79086 2 7 2H17C19.2091 2 21 3.79086 21 6V15C21 17.2091 19.2091 19 17 19H16ZM14.8 19V19.8806L11.6174 17.971L11.3324 17.8H11H7C5.4536 17.8 4.2 16.5464 4.2 15V6C4.2 4.4536 5.4536 3.2 7 3.2H17C18.5464 3.2 19.8 4.4536 19.8 6V15C19.8 16.5464 18.5464 17.8 17 17.8H16H14.8V19ZM9 11.5C9.55228 11.5 10 11.0523 10 10.5C10 9.94772 9.55228 9.5 9 9.5C8.44772 9.5 8 9.94772 8 10.5C8 11.0523 8.44772 11.5 9 11.5ZM12 11.5C12.5523 11.5 13 11.0523 13 10.5C13 9.94772 12.5523 9.5 12 9.5C11.4477 9.5 11 9.94772 11 10.5C11 11.0523 11.4477 11.5 12 11.5ZM16 10.5C16 11.0523 15.5523 11.5 15 11.5C14.4477 11.5 14 11.0523 14 10.5C14 9.94772 14.4477 9.5 15 9.5C15.5523 9.5 16 9.94772 16 10.5Z" fill="#111111"/>
+                    </svg>
+                </div>
+                <div class="side_svg">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.35355 12.3536C3.15829 12.5489 2.84171 12.5489 2.64645 12.3536C2.45118 12.1584 2.45118 11.8418 2.64645 11.6465L11.6464 2.64652L12 2.29297L12.3536 2.64652L21.3536 11.6465C21.5488 11.8418 21.5488 12.1584 21.3536 12.3536C21.1583 12.5489 20.8417 12.5489 20.6464 12.3536L12.5 4.20718V21.2071C12.5 21.4833 12.2761 21.7071 12 21.7071C11.7239 21.7071 11.5 21.4833 11.5 21.2071V4.20718L3.35355 12.3536Z" fill="#111111"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="main content_area"></div>
+        <img src="" class="purple">
+        <div class="deliver_imf content_area">
+            <table>
+                <colgroup>
+                    <col width="280">
+                    <col width="124">
+                    <col>
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th rowspan="3">일반택배</th>
+                        <td><p class="table_title">무료배송</p></td>
+                        <td>39,900원 이상 결제 시 또는 무료배송 쿠폰 적용 시</td>
+                    </tr>
+                    <tr>
+                        <td><p class="table_title">2,500원</p></td>
+                        <td>39,900원 미만 결제 시</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 
+                            <p>결제일 다음 날 부터 3일 이내 (토,일 공휴일 제외)</p>
+                            <span>LEBEIGE, KUHO, LANSMERE 브랜드는 전 상품소량 제작되어, 배송 시 5~7일이 소요됩니다.</span>
+                            <span>산간, 도서 지역은 배송 기일이 추가적으로 소요될 수 있으며, 상품의 재고상황에 따라 배송 기일이 다소 지연될 수도 있습니다.</span>
+                            <span>본 상품은 오프라인 매장과 동시 판매 되고 있어 주문결제 완료 후 상품 준비 도중 매장에서 판매 완료될 경우 발송 지연 또는 품절이 될 수 있사오니 이점 양해 바랍니다.</span>
+                        </td>
+                    <tr>
+                        <th rowspan="2">빠른 배송</th>
+                        <td><p class="table_title">5,000원</p></td>
+                        <td>상품 주문 시 건당</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <span> 주문 당일 오후/저녁, 주문 다음날 새벽 배송</span>
+                            <span>  토요일은 새벽, 저녁배송만 운영되며, 일요일은 새벽배송만 운영합니다.</span>
+                            <span>토요일은 오전 11시까지 주문시, 당일 저녁에 배송, 오후3시까지 주문하면 일요일에 받을 수 있습니다.</span>
+                            <span> 공휴일 배송가능여부는 주문/결제화면에서 상세 확인 가능합니다.</span>
+                            <span>관공서/학교/병원/시장/공단/기숙사/백화점/회사 등 야간 출입 불가한 곳은 새벽배송 서비스가 제한됩니다.</span>
+                            <p class="deliver"> 배송 미운영일</p>
+    
+                            <span>새벽배송: 월요일 및 공휴일 다음날</span>
+                            <span>오후배송: 토, 일요일 및 공휴일</span>
+                            <span>저녁배송: 일요일 및 공휴일</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>매장픽업</th>
+                        <td colspan="2">
+                            <p class="table_title">배송비 없음</p>
+    
+                            <p> SSF SHOP에서 구매한 상품을 지정된 오프라인 매장에서 직접 수령</p>
+                            <p> 1. 온라인 주문 후 픽업가능 매장 선택</p>
+                            <p>2. 상품준비 완료 시 SMS 발송 (당일 또는 2~3일 이내 픽업가능)</p>
+                            <p> 3. ‘준비완료 SMS’ 제시 후 상품수령</p>
+                            <span>반드시 ‘준비완료 SMS’ 수신 확인 후 방문해주시기 바랍니다. (SMS 수신 전 매장 방문 시 상품수령 불가)</span>
+                            <span>‘준비완료 SMS’ 수신 후 7일 이내 상품을 수령하지 않으면 주문이 취소됩니다.</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+        <div class="footer">
+            <ul class="footer_top content_area">
+                <li>회사소개</li>
+                <li>이용약관</li>
+                <li>개인정보처리방침</li>
+                <li>이메일무단추집거부</li>
+                <li>단체주문</li>
+                <li>제휴문의</li>
+                <li>입점신청</li>
+                <li>맴버쉽안내</li>
+                <li>고객센터</li>
+                <li>공지사항</li>
+                <li>매장찾기</li>
+            </ul>
+            <div class="footer_txt content_area">
+                <p>삼성물산(주)패션부문</p>
+                <div class="footer_txt1">
+                    <span>주소: 서울특별시 강남구 남부순환로 2806(도곡동) <div class="footer_line"></div></span>
+                    <span>대표: 오세철 외 2명<div class="footer_line"></div></span>
+                    <span>사업자 등록번호: 101-85-43600 <div class="footer_line"></div></span>
+                    <span>통신판매업 신고번호: 제 2015-서울강남-02894</span>
+                    <span>호스팅서비스: 삼성물산(주)패션부문</span>
+                </div>
+                <div class="footer_txt2">
+                    <span>KG모빌리언스 구매안전(에스크로)서비스 </span>
+                    <p>서비스 가입사실 확인</p>
+                    <span> 고객님의 안전거래를 위해 현금 등으로 5만원 이상 결제 시 저희 쇼핑몰에서 가입한 구매안전(에스크로) 서비스를 이용하실 수 있습니다.</span>
+                </div>
+
+                <div class="corp">Copyright (C) 2024 Samsung C&T Corporation. All rights reserved</div>
+            </div>
+        </div>
+    </div>
+</body> 
+</html> 
